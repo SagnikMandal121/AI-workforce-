@@ -1,0 +1,1 @@
+"""Receptionist prompts package."""

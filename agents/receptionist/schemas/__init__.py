@@ -1,0 +1,1 @@
+"""Receptionist schemas package."""

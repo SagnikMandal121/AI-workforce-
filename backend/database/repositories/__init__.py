@@ -1,0 +1,49 @@
+from backend.database.repositories.organization import OrganizationRepository
+from backend.database.repositories.integration import (
+	IntegrationLogRepository,
+	IntegrationPermissionRepository,
+	IntegrationRepository,
+	OAuthTokenRepository,
+)
+from backend.database.repositories.knowledge import (
+	DocumentChunkRepository,
+	DocumentRepository,
+	DocumentVersionRepository,
+	EmbeddingRepository,
+	KnowledgeBaseRepository,
+	RetrievalLogRepository,
+)
+from backend.database.repositories.runtime import (
+	RuntimeAgentRepository,
+	RuntimeApprovalRepository,
+	RuntimeConversationMessageRepository,
+	RuntimeConversationRepository,
+	RuntimeEventRepository,
+	RuntimeTelemetryRepository,
+	RuntimeTaskRepository,
+	RuntimeTaskStepRepository,
+)
+from backend.database.repositories.user import UserRepository
+
+__all__ = [
+	"OrganizationRepository",
+	"UserRepository",
+	"IntegrationRepository",
+	"OAuthTokenRepository",
+	"IntegrationPermissionRepository",
+	"IntegrationLogRepository",
+	"KnowledgeBaseRepository",
+	"DocumentRepository",
+	"DocumentVersionRepository",
+	"DocumentChunkRepository",
+	"EmbeddingRepository",
+	"RetrievalLogRepository",
+	"RuntimeAgentRepository",
+	"RuntimeConversationRepository",
+	"RuntimeConversationMessageRepository",
+	"RuntimeTaskRepository",
+	"RuntimeTaskStepRepository",
+	"RuntimeEventRepository",
+	"RuntimeApprovalRepository",
+	"RuntimeTelemetryRepository",
+]

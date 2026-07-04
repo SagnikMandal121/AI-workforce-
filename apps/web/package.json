@@ -1,0 +1,11 @@
+{
+  "name": "@ai-workforce/web",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "echo \"Web app scaffold\"",
+    "build": "echo \"Web app scaffold\"",
+    "lint": "echo \"Web app scaffold\"",
+    "test": "echo \"Web app scaffold\""
+  }
+}

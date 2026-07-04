@@ -1,0 +1,25 @@
+services:
+  web:
+    build:
+      context: ../../
+      dockerfile: infrastructure/docker/Dockerfile.web
+    env_file:
+      - ../../.env.example
+  backend:
+    build:
+      context: ../../
+      dockerfile: infrastructure/docker/Dockerfile.backend
+    env_file:
+      - ../../.env.example
+  worker:
+    build:
+      context: ../../
+      dockerfile: infrastructure/docker/Dockerfile.worker
+    env_file:
+      - ../../.env.example
+  postgres:
+    image: postgres:16
+    env_file:
+      - ../../.env.example
+  redis:
+    image: redis:7

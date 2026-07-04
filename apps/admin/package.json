@@ -1,0 +1,11 @@
+{
+  "name": "@ai-workforce/admin",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "echo \"Admin app scaffold\"",
+    "build": "echo \"Admin app scaffold\"",
+    "lint": "echo \"Admin app scaffold\"",
+    "test": "echo \"Admin app scaffold\""
+  }
+}

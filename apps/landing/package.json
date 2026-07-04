@@ -1,0 +1,11 @@
+{
+  "name": "@ai-workforce/landing",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "echo \"Landing app scaffold\"",
+    "build": "echo \"Landing app scaffold\"",
+    "lint": "echo \"Landing app scaffold\"",
+    "test": "echo \"Landing app scaffold\""
+  }
+}

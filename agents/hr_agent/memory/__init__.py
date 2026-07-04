@@ -1,0 +1,1 @@
+"""HR recruiter memory package."""

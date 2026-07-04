@@ -1,0 +1,3 @@
+# Calendar
+
+Calendar integration scaffolding.

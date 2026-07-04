@@ -1,0 +1,3 @@
+# Outlook
+
+Outlook integration scaffolding.

@@ -1,0 +1,1 @@
+"""Email assistant agent package."""
