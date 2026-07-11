@@ -1,1 +1,0 @@
-"""Email assistant tools package."""

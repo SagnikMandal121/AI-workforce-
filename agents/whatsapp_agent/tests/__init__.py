@@ -1,1 +1,0 @@
-"""WhatsApp executive tests package."""

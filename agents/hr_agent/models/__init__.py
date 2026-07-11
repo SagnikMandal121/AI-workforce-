@@ -1,1 +1,0 @@
-"""HR recruiter models package."""

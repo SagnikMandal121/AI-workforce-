@@ -1,1 +1,0 @@
-"""Receptionist memory package."""

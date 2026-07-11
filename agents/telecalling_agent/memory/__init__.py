@@ -1,1 +1,0 @@
-"""Telecalling memory package."""

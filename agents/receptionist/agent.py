@@ -1,1 +1,0 @@
-"""Receptionist agent entrypoint placeholder."""

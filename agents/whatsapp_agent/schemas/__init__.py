@@ -1,1 +1,0 @@
-"""WhatsApp executive schemas package."""

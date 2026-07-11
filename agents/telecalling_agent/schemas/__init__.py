@@ -1,1 +1,0 @@
-"""Telecalling schemas package."""

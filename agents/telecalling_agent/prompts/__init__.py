@@ -1,1 +1,0 @@
-"""Telecalling prompts package."""
