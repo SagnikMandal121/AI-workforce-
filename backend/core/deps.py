@@ -11,10 +11,10 @@ from sqlalchemy.orm import Session
 from backend.core.config import Settings, get_settings
 from backend.core.exceptions import AuthenticationError, AuthorizationError
 from backend.core.security import Role, TokenType, decode_token, is_role_allowed
-from backend.database.session import get_redis_client, get_session
+from database.session import get_redis_client, get_session
 from backend.services.knowledge_service import KnowledgeService
-from backend.database.models.user import User
-from backend.database.repositories.user import UserRepository
+from database.models.user import User
+from database.repositories.user import UserRepository
 from backend.services.integration_service import IntegrationService
 from backend.services.auth_service import AuthService
 from backend.services.notification_service import NotificationService

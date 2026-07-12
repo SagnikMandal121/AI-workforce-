@@ -4,7 +4,7 @@ from sqlalchemy.future import select
 from typing import List
 from pydantic import BaseModel
 
-from runtime.core.database import get_db
+from database.base import get_db
 from runtime.agent_registry.models import Agent
 
 router = APIRouter(prefix="/agents", tags=["Agent Registry"])

@@ -7,8 +7,8 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import Session, sessionmaker
 from sqlalchemy.pool import StaticPool
 
-from backend.database.base import Base
-from backend.database.models import integration, knowledge, organization, runtime, user  # noqa: F401
+from database.base import Base
+from database.models import integration, knowledge, organization, runtime, user  # noqa: F401
 
 
 @pytest.fixture()

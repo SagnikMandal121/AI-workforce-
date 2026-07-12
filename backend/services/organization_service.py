@@ -6,9 +6,9 @@ from sqlalchemy.orm import Session
 
 from backend.core.exceptions import NotFoundError, ValidationError
 from backend.core.security import Role, is_role_allowed
-from backend.database.models.organization import Organization
-from backend.database.repositories.organization import OrganizationRepository
-from backend.database.schemas.organization import OrganizationUpdate
+from database.models.organization import Organization
+from database.repositories.organization import OrganizationRepository
+from database.schemas.organization import OrganizationUpdate
 
 
 class OrganizationService:

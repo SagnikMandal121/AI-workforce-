@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from backend.core.config import get_settings
-from backend.database.session import get_redis_client, get_session
+from database.session import get_redis_client, get_session
 from backend.services.integration_service import IntegrationService
 
 

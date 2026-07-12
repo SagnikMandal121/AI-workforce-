@@ -7,8 +7,8 @@ from backend.core.deps import (
     require_min_role,
 )
 from backend.core.security import Role
-from backend.database.schemas.auth import AuthMessageResponse, InviteUserRequest
-from backend.database.schemas.organization import OrganizationRead, OrganizationUpdate
+from database.schemas.auth import AuthMessageResponse, InviteUserRequest
+from database.schemas.organization import OrganizationRead, OrganizationUpdate
 from backend.services.auth_service import AuthService
 from backend.services.organization_service import OrganizationService
 

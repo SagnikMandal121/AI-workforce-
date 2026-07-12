@@ -6,9 +6,9 @@ from sqlalchemy.orm import Session
 
 from backend.core.exceptions import ConflictError, NotFoundError, ValidationError
 from backend.core.security import Role, UserStatus, generate_secret_token, hash_password, verify_password
-from backend.database.models.user import User
-from backend.database.repositories.user import UserRepository
-from backend.database.schemas.auth import InviteUserRequest
+from database.models.user import User
+from database.repositories.user import UserRepository
+from database.schemas.auth import InviteUserRequest
 
 
 class UserService:

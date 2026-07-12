@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Boolean, Float, Text
 from sqlalchemy.dialects.postgresql import JSONB
-from runtime.core.database import Base
+from database.base import Base
 
 class Agent(Base):
     __tablename__ = "agents"

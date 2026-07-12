@@ -9,10 +9,10 @@ from backend.app import app
 from backend.core.config import Settings
 from backend.core.deps import get_current_user, get_runtime_service
 from backend.core.security import Role, UserStatus
-from backend.database.models.organization import Organization
-from backend.database.models.user import User
-from backend.database.schemas.runtime import RuntimeAgentCreate, RuntimeTaskCreate, RuntimeTaskExecutionRequest
-from backend.database.session import get_session
+from database.models.organization import Organization
+from database.models.user import User
+from database.schemas.runtime import RuntimeAgentCreate, RuntimeTaskCreate, RuntimeTaskExecutionRequest
+from database.session import get_session
 from backend.services.runtime_service import RuntimeService
 from orchestration.tool_manager import CallableTool
 

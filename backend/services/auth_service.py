@@ -8,11 +8,11 @@ from sqlalchemy.orm import Session
 from backend.core.config import Settings
 from backend.core.exceptions import AuthenticationError, ConflictError, NotFoundError, TokenError
 from backend.core.security import Role, TokenType, UserStatus, hash_password, verify_password, utcnow
-from backend.database.models.organization import Organization
-from backend.database.models.user import User
-from backend.database.repositories.organization import OrganizationRepository
-from backend.database.repositories.user import UserRepository
-from backend.database.schemas.auth import (
+from database.models.organization import Organization
+from database.models.user import User
+from database.repositories.organization import OrganizationRepository
+from database.repositories.user import UserRepository
+from database.schemas.auth import (
     AuthenticatedSession,
     AcceptInviteRequest,
     ForgotPasswordRequest,
@@ -25,9 +25,9 @@ from backend.database.schemas.auth import (
     ResetPasswordRequest,
     VerifyEmailRequest,
 )
-from backend.database.schemas.organization import OrganizationRead
-from backend.database.schemas.token import TokenPair
-from backend.database.schemas.user import UserRead
+from database.schemas.organization import OrganizationRead
+from database.schemas.token import TokenPair
+from database.schemas.user import UserRead
 from backend.services.notification_service import NotificationService
 from backend.services.organization_service import OrganizationService
 from backend.services.token_service import TokenService

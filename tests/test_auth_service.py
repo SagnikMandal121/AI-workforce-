@@ -4,8 +4,8 @@ import pytest
 
 from backend.core.config import Settings
 from backend.core.security import Role, UserStatus
-from backend.database.repositories.user import UserRepository
-from backend.database.schemas.auth import (
+from database.repositories.user import UserRepository
+from database.schemas.auth import (
     AcceptInviteRequest,
     ForgotPasswordRequest,
     InviteUserRequest,

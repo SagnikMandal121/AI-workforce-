@@ -1,12 +1,12 @@
 from fastapi import APIRouter
 
-from backend.api.agent_management.router import router as agent_management_router
+from backend.api.employees.router import router as agent_management_router
 from backend.api.analytics.router import router as analytics_router
-from backend.api.authentication.router import router as auth_router
+from backend.api.auth.router import router as auth_router
 from backend.api.billing.router import router as billing_router
-from backend.api.conversation_management.router import router as conversation_router
+from backend.api.conversations.router import router as conversation_router
 from backend.api.integrations.router import router as integrations_router
-from backend.api.knowledge_base.router import router as knowledge_router
+from backend.api.knowledge.router import router as knowledge_router
 from backend.api.runtime.router import router as runtime_router
 from backend.api.memory.router import router as memory_router
 from backend.api.permissions.router import router as permissions_router

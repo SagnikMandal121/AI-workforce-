@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from contextlib import asynccontextmanager
-from runtime.employee_management.router import router as employee_router
+from backend.api.employees.router import router as employee_router
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):

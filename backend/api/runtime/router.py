@@ -6,7 +6,7 @@ from fastapi import APIRouter, Depends
 
 from backend.core.deps import get_current_user, get_runtime_service, require_min_role
 from backend.core.security import Role
-from backend.database.schemas.runtime import (
+from database.schemas.runtime import (
     RuntimeAgentCreate,
     RuntimeAgentRead,
     RuntimeApprovalCreate,

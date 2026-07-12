@@ -8,7 +8,7 @@ from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
 from typing import Protocol
 
-from backend.database.models.knowledge import DocumentSourceType
+from database.models.knowledge import DocumentSourceType
 
 
 @dataclass(slots=True)

@@ -3,8 +3,8 @@ from uuid import UUID
 
 from backend.core.deps import get_current_user, get_integration_service, require_min_role
 from backend.core.security import Role
-from backend.database.models.integration import IntegrationProvider
-from backend.database.schemas.integration import (
+from database.models.integration import IntegrationProvider
+from database.schemas.integration import (
     IntegrationActionRequest,
     IntegrationCallbackRequest,
     IntegrationConnectRequest,

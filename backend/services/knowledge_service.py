@@ -15,7 +15,7 @@ from sqlalchemy.orm import Session, selectinload
 from backend.core.config import Settings
 from backend.core.exceptions import ConflictError, NotFoundError, ValidationError
 from backend.core.security import utcnow
-from backend.database.models.knowledge import (
+from database.models.knowledge import (
     Document,
     DocumentChunk,
     DocumentSourceType,
@@ -25,8 +25,8 @@ from backend.database.models.knowledge import (
     KnowledgeBaseStatus,
     RetrievalLog,
 )
-from backend.database.models.user import User
-from backend.database.repositories.knowledge import (
+from database.models.user import User
+from database.repositories.knowledge import (
     DocumentChunkRepository,
     DocumentRepository,
     DocumentVersionRepository,
@@ -34,7 +34,7 @@ from backend.database.repositories.knowledge import (
     KnowledgeBaseRepository,
     RetrievalLogRepository,
 )
-from backend.database.schemas.knowledge import (
+from database.schemas.knowledge import (
     DocumentChunkRead,
     DocumentEmbeddingRead,
     DocumentListResponse,

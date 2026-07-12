@@ -8,10 +8,10 @@ from backend.app import app
 from backend.core.config import Settings
 from backend.core.deps import get_current_user, get_knowledge_service
 from backend.core.security import Role, UserStatus
-from backend.database.models.knowledge import DocumentSourceType
-from backend.database.models.organization import Organization
-from backend.database.models.user import User
-from backend.database.schemas.knowledge import DocumentUploadCreate, KnowledgeBaseCreate, SearchRequest
+from database.models.knowledge import DocumentSourceType
+from database.models.organization import Organization
+from database.models.user import User
+from database.schemas.knowledge import DocumentUploadCreate, KnowledgeBaseCreate, SearchRequest
 from backend.services.knowledge_service import KnowledgeService
 
 

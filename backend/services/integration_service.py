@@ -13,7 +13,7 @@ from backend.core.config import Settings
 from backend.core.exceptions import ConflictError, NotFoundError, ValidationError
 from backend.core.integration_crypto import CredentialCipher
 from backend.core.security import utcnow
-from backend.database.models.integration import (
+from database.models.integration import (
     Integration,
     IntegrationLog,
     IntegrationPermission,
@@ -21,14 +21,14 @@ from backend.database.models.integration import (
     IntegrationStatus,
     OAuthToken,
 )
-from backend.database.models.user import User
-from backend.database.repositories.integration import (
+from database.models.user import User
+from database.repositories.integration import (
     IntegrationLogRepository,
     IntegrationPermissionRepository,
     IntegrationRepository,
     OAuthTokenRepository,
 )
-from backend.database.schemas.integration import (
+from database.schemas.integration import (
     IntegrationActionRequest,
     IntegrationCallbackRequest,
     IntegrationConnectRequest,

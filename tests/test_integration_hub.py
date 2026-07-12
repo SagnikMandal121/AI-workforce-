@@ -8,12 +8,12 @@ from backend.app import app
 from backend.core.config import Settings
 from backend.core.deps import get_current_user, get_integration_service
 from backend.core.security import Role, UserStatus
-from backend.database.models.integration import Integration, IntegrationProvider, IntegrationStatus
-from backend.database.models.organization import Organization
-from backend.database.models.user import User
-from backend.database.repositories.integration import IntegrationRepository, OAuthTokenRepository
-from backend.database.schemas.integration import IntegrationActionRequest, IntegrationConnectRequest, IntegrationCallbackRequest
-from backend.database.session import get_session
+from database.models.integration import Integration, IntegrationProvider, IntegrationStatus
+from database.models.organization import Organization
+from database.models.user import User
+from database.repositories.integration import IntegrationRepository, OAuthTokenRepository
+from database.schemas.integration import IntegrationActionRequest, IntegrationConnectRequest, IntegrationCallbackRequest
+from database.session import get_session
 from backend.services.integration_service import IntegrationService
 
 

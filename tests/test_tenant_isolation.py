@@ -1,9 +1,9 @@
 from __future__ import annotations
 
 from backend.core.security import Role, UserStatus
-from backend.database.models.organization import Organization
-from backend.database.models.user import User
-from backend.database.repositories.user import UserRepository
+from database.models.organization import Organization
+from database.models.user import User
+from database.repositories.user import UserRepository
 from backend.services.organization_service import OrganizationService
 from backend.services.user_service import UserService
 

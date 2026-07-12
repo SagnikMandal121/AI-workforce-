@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 from typing import Any
 
 from backend.core.security import utcnow
-from backend.database.models.integration import Integration, IntegrationProvider
+from database.models.integration import Integration, IntegrationProvider
 
 
 @dataclass(frozen=True)

@@ -3,7 +3,7 @@ from __future__ import annotations
 from uuid import UUID
 
 from backend.core.config import Settings
-from backend.database.repositories.runtime import (
+from database.repositories.runtime import (
     RuntimeAgentRepository,
     RuntimeApprovalRepository,
     RuntimeConversationMessageRepository,
@@ -13,8 +13,8 @@ from backend.database.repositories.runtime import (
     RuntimeTaskRepository,
     RuntimeTaskStepRepository,
 )
-from backend.database.schemas.knowledge import SearchRequest
-from backend.database.schemas.runtime import (
+from database.schemas.knowledge import SearchRequest
+from database.schemas.runtime import (
     RuntimeAgentCreate,
     RuntimeAgentRead,
     RuntimeApprovalCreate,

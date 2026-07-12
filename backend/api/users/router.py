@@ -3,8 +3,8 @@ from uuid import UUID
 
 from backend.core.deps import get_auth_service, get_current_user, get_user_service, require_min_role
 from backend.core.security import Role
-from backend.database.schemas.auth import AuthMessageResponse, InviteUserRequest
-from backend.database.schemas.user import UserRead, UserUpdate
+from database.schemas.auth import AuthMessageResponse, InviteUserRequest
+from database.schemas.user import UserRead, UserUpdate
 from backend.services.auth_service import AuthService
 from backend.services.user_service import UserService
 
